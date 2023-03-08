@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Ejemplos de selectores</title>
+  </head>
+  <body>
+    
+    <h1 id="numen">Academia NUMEN</h1>
+    <p class="div1">Etiqueta p con class div1</p>
+    <div class="div1">
+      <p>Etiqueta dentro del div1</p>
+    </div>
+    <div class="div1">
+      <p>Etiqueta dentro del div2</p>
+    </div>
+    <div class="div1">
+      <p>Etiqueta dentro del div3</p>
+    </div>
+    
+    <ul name="avatar">
+      <li>Fuego</li>
+      <li>Tierra</li>
+      <li>Agua</li>
+      <li>Aire</li>
+
+      <a href="https://ar.academianumen.com/" class="enlace">Link hacia Numen</a>
+    </ul>
+    
+    <article id="articulo"></article>
+    
+    <section class="cards"></section>
+   
+
+    <button onclick="cambiarColor('blue')">Cambiar a azul</button>
+    <button onclick="cambiarColor('red')">Cambiar a rojo</button>
+    <button onclick="borrarTodosDivs()">Borrar todos los divs</button>
+    <button onclick="textoHTML()">Texto y HTML</button>
+    <button onclick="crearElementos()">Crear elementos en section</button>
+    <button onclick="estaciones()">Estaciones del año</button>
+    <button id="eventoSecreto">Mi primer evento</button>
+    <button id="evento">Event listener</button>
+    <button class="objevent">Evento Log</button>
+    
+    <script src="./index.js"></script>
+  </body>
+</html>
