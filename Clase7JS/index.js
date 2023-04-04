@@ -41,8 +41,8 @@ function cambiarColor(nuevoColor) {
 
 function borrarTodosDivs() {
   console.log("Se borran todos los divs");
-  let divs = document.querySelectorAll("div");
-  divs.forEach((element) => {
+  let $divs = document.querySelectorAll("div");
+  $divs.forEach((element) => {
     element.remove();
   });
 }
@@ -55,7 +55,7 @@ function textoHTML() {
   <mark>adipisicing elit</mark>. Quisquam, nemo.
   </p>
   `;
-  $articulo.textContent = texto;
+  $articulo.outerHTML = texto;
   console.log($articulo);
 }
 
